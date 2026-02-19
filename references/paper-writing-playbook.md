@@ -1,46 +1,46 @@
 # AI Paper Writing Playbook
 
 ## Intake Questions
-Ask these first when context is incomplete:
-- What venue is targeted, and what is the submission date?
-- What is the single strongest thesis claim?
-- What evidence exists for each contribution?
-- Which baselines are mandatory in this subfield?
-- Which known failure modes must be disclosed?
+Ask these first:
+- Which venue and track are targeted?
+- What is the strongest one-line thesis?
+- Which evidence supports each contribution?
+- Which baselines are non-negotiable for this subfield?
+- Which failure modes or negative results must be disclosed?
 
-## Claim-Evidence Table
-Build this table before drafting final prose:
+## Claim-Evidence Matrix
+Build this before long-form writing:
 
-| Claim | Evidence | Scope | Risk if challenged |
+| Claim | Evidence | Scope boundary | Reviewer risk |
 | --- | --- | --- | --- |
-| contribution 1 | main result table, ablation | where it holds | missing baseline / weak significance |
-| contribution 2 | robustness study | tested conditions | external validity gap |
+| C1 | main table + ablation | tested setting only | missing baseline fairness |
+| C2 | robustness study | specific data conditions | weak external validity |
 
-Do not keep claims that have no hard evidence.
+Drop claims without hard evidence.
 
-## Introduction Template
+## Introduction Blueprint
 Write in this order:
-1. Problem and stakes.
-2. Gap in existing approaches.
+1. Problem stakes and urgency.
+2. Gap in prior lines of work.
 3. Core method intuition.
-4. Main result preview.
-5. Contribution bullets with measurable wording.
+4. Main evidence preview.
+5. Contribution bullets with measurable language.
 
-## Related Work Strategy
-Structure by approach families, not timeline:
+## Related Work Blueprint
+Group by approach families:
 - family A: strengths, limits, relevance
 - family B: strengths, limits, relevance
 - family C: strengths, limits, relevance
 
-End with a direct contrast paragraph explaining why the proposed method is necessary.
+End with direct contrast: why existing methods are insufficient and why this method is needed.
 
-## Method Section Rules
-- Define notation once and keep symbols stable.
-- Justify major design choices with expected effect.
-- Surface assumptions about data, compute, and deployment.
-- Include concise pseudocode when execution flow can be misread.
+## Method Blueprint
+- Keep notation stable and minimal.
+- Justify each major design choice.
+- State assumptions on data, compute, and deployment.
+- Add concise pseudocode when implementation flow is easy to misread.
 
-## Experiment Section Order
+## Experiment Blueprint
 Use this order:
 1. Evaluation questions.
 2. Datasets, metrics, and setup.
@@ -49,32 +49,31 @@ Use this order:
 5. Efficiency profile.
 6. Error analysis and failure cases.
 
-Interpret every major table and figure in text.
+Interpret every key number in text.
 
-## Quality Gates
-Pass all gates before submission:
-- Claims are scoped to tested conditions.
-- Baseline comparisons are fair and reproducible.
-- Limitations are explicit and not hidden in appendix only.
-- Abstract, Intro, and Conclusion use aligned contribution wording.
-- Reviewer can identify novelty in under two minutes.
+## Reproducibility Minimum Bar
+- report all main hyperparameters
+- specify seed policy or variance reporting strategy
+- clarify preprocessing and filtering rules
+- provide environment and dependency versions
+- ensure table numbers can be regenerated from logged runs
 
-## Pre-Submission Checklist
-- Verify table/figure numbering and in-text references.
-- Verify metric definitions and units.
-- Remove vague adjectives and repeated claims.
-- Verify formatting and anonymization constraints.
-- Re-check contribution bullets against final results.
+## Final Pass Checklist
+- align claim wording across Abstract/Intro/Conclusion
+- verify figure/table references and captions
+- verify metric definitions and units
+- remove vague adjectives and unsupported superlatives
+- verify anonymization and supplemental policy constraints
 
-## Rebuttal Prep
-Keep these artifacts ready:
-- claim-to-evidence map
-- likely reviewer objections and factual responses
-- boundary statements for what is not claimed
+## Rebuttal Prep Pack
+Prepare these before review release:
+- one-line evidence answer per contribution
+- list of likely objections with factual responses
+- compact appendix pointers for disputed details
 
 ## Anti-Patterns
-Avoid these mistakes:
-- novelty claim without clear problem framing
-- results dump without interpretation
+Avoid these failures:
+- novelty claim without clear delta against strongest baselines
+- results dump with little interpretation
 - over-claiming beyond tested scope
-- omitting negative cases likely to be noticed by reviewers
+- hiding failure cases likely noticed by reviewers
