@@ -22,6 +22,9 @@ Common entry points:
 - CVPR 2026: https://cvpr.thecvf.com/Conferences/2026
 - ECCV 2026: https://eccv.ecva.net/Conferences/2026
 - ACL 2026: https://2026.aclweb.org/
+- AAAI-27: https://aaai.org/conference/aaai/aaai-27/
+- SIGGRAPH 2026: https://s2026.siggraph.org/
+- Eurographics 2026: https://eg2026.github.io/
 - OpenReview Venues: https://openreview.net/venues
 - ARR: https://aclrollingreview.org/
 

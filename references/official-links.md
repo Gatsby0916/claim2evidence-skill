@@ -42,8 +42,16 @@
 - EMNLP（最近一届官方站点）
   - EMNLP 2025: https://2025.emnlp.org/
 
-- AAAI 2026
-  - AAAI-26: https://aaai.org/conference/aaai/aaai-26/
+- AAAI（最新一届）
+  - AAAI-27: https://aaai.org/conference/aaai/aaai-27/
+
+- SIGGRAPH 2026
+  - 会议主页: https://s2026.siggraph.org/
+  - Call for Technical Papers: https://s2026.siggraph.org/program/technical-papers/
+
+- Eurographics 2026
+  - 会议主页: https://eg2026.github.io/
+  - Call for Full Papers: https://eg2026.github.io/calls/cfp/
 
 - KDD 2026
   - 官方站: https://kdd2026.kdd.org/
