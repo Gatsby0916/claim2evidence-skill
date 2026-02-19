@@ -81,3 +81,4 @@ Always return:
 ## Resources
 - Read `references/paper-writing-playbook.md` for templates and submission workflows.
 - Read `references/top-conference-rubric.md` for venue-level review expectations and final checks.
+- Read `references/official-links.md` when user asks for official conference/CFP/author-guide URLs.
