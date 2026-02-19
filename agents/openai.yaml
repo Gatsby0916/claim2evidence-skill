@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Paper Writing"
+  short_description: "Turn research notes into conference-ready paper drafts."
+  default_prompt: "Use $writing-ai-paper to draft and refine my AI conference paper from results and notes."
