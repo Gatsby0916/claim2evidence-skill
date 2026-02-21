@@ -1,6 +1,6 @@
 ---
 name: writing-ai-paper
-description: End-to-end workflow for top-tier AI conference paper development, from idea framing to rebuttal preparation. Use when users need to draft, rewrite, or audit papers for NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, or similar venues; align claims with evidence; strengthen novelty positioning; improve experimental rigor and reproducibility; and run final pre-submission and rebuttal checks.
+description: End-to-end workflow for top-tier AI/CS conference paper development, from idea framing to rebuttal preparation. Use when users need to draft, rewrite, or audit papers for venues such as NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, CHI, UIST, CSCW, FAccT, SIGMOD, VLDB, WWW, OSDI, SOSP, USENIX Security, or NDSS; align claims with evidence; strengthen novelty positioning; improve experimental and study rigor; and run final pre-submission and rebuttal checks.
 ---
 
 # Writing AI Paper

@@ -22,6 +22,16 @@ Common entry points:
 - CVPR 2026: https://cvpr.thecvf.com/Conferences/2026
 - ECCV 2026: https://eccv.ecva.net/Conferences/2026
 - ACL 2026: https://2026.aclweb.org/
+- CHI 2026: https://chi2026.acm.org/
+- UIST 2026: https://uist.acm.org/2026/
+- CSCW 2026: https://cscw.acm.org/2026/
+- FAccT 2026: https://facctconference.org/2026/index.html
+- SIGMOD 2026: https://2026.sigmod.org/
+- VLDB: https://www.vldb.org/
+- The Web Conference 2026: https://www2026.thewebconf.org/
+- OSDI '26: https://www.usenix.org/conference/osdi26
+- USENIX Security '26: https://www.usenix.org/conference/usenixsecurity26
+- NDSS 2026: https://www.ndss-symposium.org/ndss2026/
 - AAAI-27: https://aaai.org/conference/aaai/aaai-27/
 - SIGGRAPH 2026: https://s2026.siggraph.org/
 - Eurographics 2026: https://eg2026.github.io/
@@ -43,4 +53,4 @@ Prompt examples:
 - Re-check official conference pages at every critical milestone.
 
 ## Scope
-This skill is mainly designed for AI paper writing in machine learning, computer vision, and NLP. The structure is reusable in other fields, but domain-specific evaluation and review standards should be replaced accordingly.
+This skill is primarily designed for top-tier AI and CS paper writing, including ML/CV/NLP, HCI, systems, data, web, and security venues. The structure is reusable across fields, but venue-specific evaluation standards should always be enforced.

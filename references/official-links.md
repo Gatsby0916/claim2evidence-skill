@@ -1,15 +1,15 @@
-# 官方外部链接（AI 顶会）
+# 官方外部链接（AI / CS 顶会）
 
-最后核验日期：**2026-02-19**。
+最后核验日期：**2026-02-21**。
 
-说明：以下只收录官方站点或官方组织渠道，优先用于投稿前核对 "Call for Papers / Author Guide / Dates / Submission Portal"。具体 deadline 可能变动，请以各会议当年页面为准。
+说明：以下优先收录官方站点或官方组织渠道，用于投稿前核对 `Call for Papers / Author Guide / Dates / Submission Portal`。具体 deadline 可能变化，请以会议当年页面为准。
 
-## 1) 顶会官方入口
+## 1) AI / ML / CV / NLP 顶会
 
 - NeurIPS
   - 主页: https://neurips.cc/
   - Dates: https://neurips.cc/Conferences/current/Dates
-  - Call for Papers (2025 页面，含官方提交流程说明): https://nips.cc/Conferences/2025/CallForPapers
+  - Call for Papers: https://nips.cc/Conferences/2025/CallForPapers
 
 - ICML 2026
   - 会议主页: https://icml.cc/Conferences/2026
@@ -27,9 +27,6 @@
   - Call for Papers: https://cvpr.thecvf.com/Conferences/2026/CallForPapers
   - Author Guidelines: https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines
 
-- ICCV（CVF 官方系列页，当前公开到 2025）
-  - 会议页: https://iccv.thecvf.com/Conferences/2025
-
 - ECCV 2026
   - 会议主页: https://eccv.ecva.net/Conferences/2026
   - Dates: https://eccv.ecva.net/Conferences/2026/Dates
@@ -45,21 +42,61 @@
 - AAAI（最新一届）
   - AAAI-27: https://aaai.org/conference/aaai/aaai-27/
 
+- IJCAI
+  - 官方入口: https://www.ijcai.org/home
+
+## 2) HCI 与人本 AI 顶会
+
+- CHI 2026
+  - 会议主页: https://chi2026.acm.org/
+  - Papers 轨道: https://chi2026.acm.org/for-authors/papers/
+
+- UIST 2026
+  - 会议主页: https://uist.acm.org/2026/
+  - Call for Papers: https://uist.acm.org/2026/cfp
+
+- CSCW 2026
+  - 会议主页: https://cscw.acm.org/2026/
+  - Papers 信息: https://cscw.acm.org/2026/papers.html
+
+- FAccT 2026
+  - 会议主页: https://facctconference.org/2026/index.html
+  - Call for Papers: https://facctconference.org/2026/cfp.html
+
+## 3) 图形学 / 系统 / 数据 / Web / 安全 顶会
+
 - SIGGRAPH 2026
   - 会议主页: https://s2026.siggraph.org/
-  - Call for Technical Papers: https://s2026.siggraph.org/program/technical-papers/
+  - Technical Papers: https://s2026.siggraph.org/program/technical-papers/
 
 - Eurographics 2026
   - 会议主页: https://eg2026.github.io/
   - Call for Full Papers: https://eg2026.github.io/calls/cfp/
 
-- KDD 2026
-  - 官方站: https://kdd2026.kdd.org/
+- SIGMOD 2026
+  - 会议主页: https://2026.sigmod.org/
 
-- IJCAI
-  - 官方入口: https://www.ijcai.org/home
+- VLDB
+  - 官方入口: https://www.vldb.org/
+  - 最近一届会议信息: https://www.vldb.org/2025/
 
-## 2) 投稿与评审平台
+- The Web Conference 2026
+  - 会议主页: https://www2026.thewebconf.org/
+  - Calls: https://www2026.thewebconf.org/calls.html
+
+- OSDI '26
+  - 会议主页: https://www.usenix.org/conference/osdi26
+
+- SOSP
+  - 官方入口: https://www.sosp.org/
+
+- USENIX Security '26
+  - 会议主页: https://www.usenix.org/conference/usenixsecurity26
+
+- NDSS 2026
+  - 会议主页: https://www.ndss-symposium.org/ndss2026/
+
+## 4) 投稿与评审平台
 
 - OpenReview
   - 主页: https://openreview.net/about
@@ -71,29 +108,33 @@
 - Microsoft CMT
   - 官方介绍页: https://cmt3.research.microsoft.com/About
 
-## 3) 论文检索与官方文集
+## 5) 论文检索与官方文集
 
 - ACL Anthology: https://aclanthology.org/
-- PMLR (ICML 等会议论文集): https://proceedings.mlr.press/pmlr.html
+- PMLR (ICML 等论文集): https://proceedings.mlr.press/pmlr.html
 - CVF Open Access: https://openaccess.thecvf.com/
 
-## 4) 官方模板与格式资源
+## 6) 官方模板与格式资源
 
-- ACL 官方样式文件（GitHub）
+- ACL 样式文件（GitHub）
   - https://github.com/acl-org/acl-style-files
 
-- CVPR 官方 Author Guidelines（含格式/政策）
+- CVPR Author Guidelines
   - https://cvpr.thecvf.com/Conferences/2026/AuthorGuidelines
 
-- ICML 官方 Author Instructions
+- ICML Author Instructions
   - https://icml.cc/Conferences/2026/AuthorInstructions
 
-- ICLR 官方 Author Guide
+- ICLR Author Guide
   - https://iclr.cc/Conferences/2026/AuthorGuide
 
-## 5) 使用建议（给写作与投稿流程）
+- CHI 2026 Papers 轨道（格式与投稿要求入口）
+  - https://chi2026.acm.org/for-authors/papers/
 
-- 在写作早期：先打开 "会议主页 + CFP + Author Guide"，固定页数、匿名、补充材料、伦理和 LLM 政策。
-- 在提交前两周：再次核对 Dates 页，避免时区误差（很多会议用 AOE / UTC-12）。
-- 在 rebuttal 前：确认 OpenReview 或 ARR 的讨论期窗口和可修改范围。
-- 在 camera-ready 阶段：以当年会议页面和官方说明为唯一准绳，不依赖过往年份经验。
+## 7) 使用建议（写作与投稿流程）
+
+- 在选题和 framing 阶段：先看目标 venue 的评审价值观（方法创新 / 用户研究严谨性 / 系统性能 / 安全威胁模型）。
+- 在写作中期：锁定当年 CFP 与格式规范，避免最后一周大规模改稿。
+- 在提交前两周：核对 Dates 页和时区（AOE / UTC-12）并确认补充材料政策。
+- 在 rebuttal 前：确认平台（OpenReview/CMT/ARR）窗口、可修改范围与附录规则。
+- 在 camera-ready 阶段：以“当年官方页面”作为唯一准绳，不依赖往年经验。

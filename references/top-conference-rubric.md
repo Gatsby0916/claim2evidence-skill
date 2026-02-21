@@ -8,7 +8,12 @@ Use this quick rubric when tuning final draft:
 | NeurIPS / ICML / ICLR | methodological novelty + rigorous evidence | unclear novelty delta or weak ablations |
 | CVPR / ICCV / ECCV | visual evidence + fair SOTA comparison | missing qualitative analysis or weak protocol parity |
 | ACL / EMNLP / NAACL | task framing + generalization + error analysis | shallow related work positioning or weak analysis depth |
+| CHI / UIST / CSCW / DIS | problem framing + user-study rigor + design implications | weak study design, insufficient qualitative/quantitative triangulation |
+| FAccT / AIES | socio-technical validity + harm analysis + normative clarity | missing societal impact analysis or unsupported fairness claims |
 | KDD / WWW / WSDM | practical impact + scale + robustness | no real-world relevance or limited scalability evidence |
+| SIGMOD / VLDB | system novelty + workload realism + reproducibility | unrealistic workload, weak baseline systems, missing efficiency breakdown |
+| OSDI / SOSP | end-to-end system contribution + deployment realism | no convincing bottleneck analysis or incomplete evaluation |
+| USENIX Security / CCS / NDSS | threat model clarity + attack/defense rigor | ambiguous attacker assumptions or incomplete security evaluation |
 
 ## Reviewer Questions You Must Pre-Answer
 - What exact gap does this paper close?
