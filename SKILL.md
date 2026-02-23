@@ -1,6 +1,6 @@
 ---
 name: writing-ai-paper
-description: End-to-end workflow for top-tier AI/CS conference paper development, from idea framing to rebuttal preparation. Use when users need to draft, rewrite, or audit papers for venues such as NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, CHI, UIST, CSCW, FAccT, SIGMOD, VLDB, WWW, OSDI, SOSP, USENIX Security, or NDSS; align claims with evidence; strengthen novelty positioning; improve experimental and study rigor; and run final pre-submission and rebuttal checks.
+description: End-to-end workflow for top-tier AI/CS conference paper development, from idea framing to rebuttal preparation. Use when users need to draft, rewrite, or audit papers for venues such as NeurIPS, ICML, ICLR, CVPR, ECCV, ACL, EMNLP, CHI, UIST, CSCW, ISMAR, IEEE VR, VRST, FAccT, SIGMOD, VLDB, WWW, OSDI, SOSP, USENIX Security, or NDSS; align claims with evidence; strengthen novelty positioning; improve experimental and study rigor; and run final pre-submission and rebuttal checks.
 ---
 
 # Writing AI Paper
@@ -22,6 +22,7 @@ Collect these inputs first:
 - datasets, baselines, metrics, and compute budget
 - ablations, robustness tests, and failure cases
 - reproducibility artifacts (code status, seed policy, config completeness)
+- If venue is AR/VR/XR, also specify study modality (lab vs in-the-wild), interaction hardware, tracking stack, and cybersickness/comfort reporting plan
 
 If critical inputs are absent, ask focused questions before drafting full text.
 
@@ -63,6 +64,7 @@ Apply these rules when generating or rewriting:
 - Method: explain design choices, assumptions, and complexity tradeoffs.
 - Experiments: organize by evaluation questions, not by random table order.
 - Conclusion: restate scope-limited takeaways and boundaries.
+- AR/VR/XR papers: report interaction latency, tracking fidelity, device constraints, and user safety/comfort boundaries.
 
 ## Quality Gates
 Pass all gates before final output:
@@ -70,6 +72,7 @@ Pass all gates before final output:
 - each contribution is testable and evidenced
 - claims remain consistent across Abstract, Intro, and Conclusion
 - limitations are explicit and technically honest
+- human-subject and AR/VR comfort risks are disclosed when applicable
 - reviewer can identify the paper's delta in under two minutes
 
 ## Output Contract
@@ -81,4 +84,5 @@ Always return:
 ## Resources
 - Read `references/paper-writing-playbook.md` for templates and submission workflows.
 - Read `references/top-conference-rubric.md` for venue-level review expectations and final checks.
+- Read `references/ar-vr-xr-rubric.md` for AR/VR/XR-specific venue expectations and study rigor checks.
 - Read `references/official-links.md` when user asks for official conference/CFP/author-guide URLs.

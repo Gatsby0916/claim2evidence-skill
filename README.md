@@ -9,6 +9,7 @@ I built this repository to solve a recurring problem in my own workflow: I often
 - `SKILL.md`: Core workflow with three modes (`Build`, `Improve`, `Audit`).
 - `references/paper-writing-playbook.md`: Practical drafting templates and execution checklists.
 - `references/top-conference-rubric.md`: Top-conference review expectations, rejection risks, and rebuttal patterns.
+- `references/ar-vr-xr-rubric.md`: AR/VR/XR venue emphasis, experiment rigor checks, and reviewer-risk checklist.
 - `references/official-links.md`: Curated official conference and submission links.
 - `agents/openai.yaml`: UI metadata for skill invocation.
 
@@ -35,6 +36,9 @@ Common entry points:
 - AAAI-27: https://aaai.org/conference/aaai/aaai-27/
 - SIGGRAPH 2026: https://s2026.siggraph.org/
 - Eurographics 2026: https://eg2026.github.io/
+- IEEE ISMAR: https://ismar.net/
+- IEEE VR: https://ieeevr.org/
+- ACM VRST: https://vrst.acm.org/
 - OpenReview Venues: https://openreview.net/venues
 - ARR: https://aclrollingreview.org/
 
@@ -53,4 +57,4 @@ Prompt examples:
 - Re-check official conference pages at every critical milestone.
 
 ## Scope
-This skill is primarily designed for top-tier AI and CS paper writing, including ML/CV/NLP, HCI, systems, data, web, and security venues. The structure is reusable across fields, but venue-specific evaluation standards should always be enforced.
+This skill is primarily designed for top-tier AI and CS paper writing, including ML/CV/NLP, HCI, AR/VR/XR, systems, data, web, and security venues. The structure is reusable across fields, but venue-specific evaluation standards should always be enforced.

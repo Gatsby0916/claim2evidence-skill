@@ -77,3 +77,10 @@ Avoid these failures:
 - results dump with little interpretation
 - over-claiming beyond tested scope
 - hiding failure cases likely noticed by reviewers
+
+## AR/VR/XR Add-on Checklist
+- define target interaction scenario and user population clearly
+- report hardware/software stack (HMD, controllers, tracking, runtime)
+- include latency and frame stability reporting method
+- include comfort/safety instrumentation (e.g., cybersickness, fatigue) when applicable
+- separate system-level gains from study-level gains in claims

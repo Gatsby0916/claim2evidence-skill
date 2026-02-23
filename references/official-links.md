@@ -73,6 +73,15 @@
   - 会议主页: https://eg2026.github.io/
   - Call for Full Papers: https://eg2026.github.io/calls/cfp/
 
+- IEEE ISMAR
+  - 官方入口: https://ismar.net/
+
+- IEEE VR
+  - 官方入口: https://ieeevr.org/
+
+- ACM VRST
+  - 官方入口: https://vrst.acm.org/
+
 - SIGMOD 2026
   - 会议主页: https://2026.sigmod.org/
 
@@ -135,6 +144,7 @@
 
 - 在选题和 framing 阶段：先看目标 venue 的评审价值观（方法创新 / 用户研究严谨性 / 系统性能 / 安全威胁模型）。
 - 在写作中期：锁定当年 CFP 与格式规范，避免最后一周大规模改稿。
+- AR/VR/XR 论文：尽早锁定设备与实验场景（HMD/追踪方案/实验空间），并在初稿中预留 latency 与舒适度报告位。
 - 在提交前两周：核对 Dates 页和时区（AOE / UTC-12）并确认补充材料政策。
 - 在 rebuttal 前：确认平台（OpenReview/CMT/ARR）窗口、可修改范围与附录规则。
 - 在 camera-ready 阶段：以“当年官方页面”作为唯一准绳，不依赖往年经验。
