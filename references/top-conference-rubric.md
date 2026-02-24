@@ -9,6 +9,7 @@ Use this quick rubric when tuning final draft:
 | CVPR / ICCV / ECCV | visual evidence + fair SOTA comparison | missing qualitative analysis or weak protocol parity |
 | ACL / EMNLP / NAACL | task framing + generalization + error analysis | shallow related work positioning or weak analysis depth |
 | CHI / UIST / CSCW / DIS | problem framing + user-study rigor + design implications | weak study design, insufficient qualitative/quantitative triangulation |
+| ISMAR / IEEE VR / VRST | XR interaction novelty + hardware-aware evaluation + user comfort rigor | missing latency/comfort reporting or underpowered study design |
 | FAccT / AIES | socio-technical validity + harm analysis + normative clarity | missing societal impact analysis or unsupported fairness claims |
 | KDD / WWW / WSDM | practical impact + scale + robustness | no real-world relevance or limited scalability evidence |
 | SIGMOD / VLDB | system novelty + workload realism + reproducibility | unrealistic workload, weak baseline systems, missing efficiency breakdown |
@@ -20,6 +21,7 @@ Use this quick rubric when tuning final draft:
 - Why cannot strong baseline variants solve this already?
 - Are comparisons fair in compute, data, and tuning budget?
 - Which claims are robust across seeds/splits/domains?
+- For XR papers, are results robust across devices, tracking conditions, or participant variability?
 - What limitations remain after this work?
 
 ## Top-Tier Submission Gates
@@ -29,6 +31,7 @@ Pass all gates:
 - main claim has ablation or theoretical support
 - uncertainty/variance handling is explicitly described
 - limitations and failure analysis are visible in main text
+- runtime constraints and latency-sensitive behavior are explicit for systems/XR papers
 
 ## Rebuttal Response Pattern
 Use this structure per reviewer point:
