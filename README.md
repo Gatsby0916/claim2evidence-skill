@@ -13,8 +13,23 @@ I built this repository to solve a recurring problem in my own workflow: I often
 - `references/official-links.md`: Curated official conference and submission links.
 - `agents/openai.yaml`: UI metadata for skill invocation.
 
+## Install
+The skill is named `writing-ai-paper` (see the front matter of `SKILL.md`), so install it into a folder with that name.
+
+Claude Code:
+```bash
+git clone https://github.com/Gatsby0916/claim2evidence-skill.git ~/.claude/skills/writing-ai-paper
+```
+Then ask for paper-writing help, or call it directly with `/writing-ai-paper`.
+
+Codex:
+```bash
+git clone https://github.com/Gatsby0916/claim2evidence-skill.git ~/.codex/skills/writing-ai-paper
+```
+Then call it with `$writing-ai-paper`, as in the examples below.
+
 ## Official Links (Quick Access)
-I keep official conference and submission resources in `references/official-links.md`.
+I keep official conference and submission resources in `references/official-links.md` (last checked 2026-02-21; always confirm dates on the venue site).
 
 Common entry points:
 - NeurIPS: https://neurips.cc/
